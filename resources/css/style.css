@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-weight: normal;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+header {
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 21px;
+    color: gray;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* link size */
+a {
+    font-size: 16px;
+}
+
+/* unvisited link */
+a:link {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: aquamarine;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0FFF50;
+    text-decoration: solid underline;
+}
+
+/* selected link */
+a:active {
+    color: gray;
+}
+
+main {
+    flex: 1;
+}
+
+.phone-video {
+    padding-top: 30px;
+}
+
+footer {
+    margin-top: auto;
+    align-self: flex-end;
+    color: gray;
+}
+
+footer p {
+    font-size: 15px;
+}
